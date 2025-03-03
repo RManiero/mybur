@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MANIERO ROBERTINO - COPERTINE BUR</title>
+    <style>
+        body { 
+            font-family: Arial, sans-serif; 
+            text-align: center; 
+            /* Aggiungi qui l'immagine di sfondo */
+            background-image: url('backg.jpg'); 
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        .gallery { display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; }
+        .thumbnail { width: 150px; cursor: pointer; border: 1px solid #ccc; padding: 5px; background: white; }
+        .lightbox { display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.8); justify-content: center; align-items: center; }
+        .lightbox iframe { width: 80%; height: 80%; border: none; }
+        .close { position: absolute; top: 20px; right: 20px; color: white; font-size: 38px; cursor: pointer; }
+    </style>
+</head>
+<body>
+    <h1>MANIERO ROBERTINO - COPERTINE BUR</h1>
+    <div class="gallery">
+        <div class="row">
+            <div class="column">
+                <img src="001.jpg" class="thumbnail" data-pdf="001.pdf" alt="PDF 1">
+            </div>
+            <div class="column">
+                <img src="002.jpg" class="thumbnail" data-pdf="002.pdf" alt="PDF 2">
+            </div>
+            <div class="column">
+                <img src="003.jpg" class="thumbnail" data-pdf="003.pdf" alt="PDF 3">
+            </div>
+            <div class="column">
+                <img src="004.jpg" class="thumbnail" data-pdf="004.pdf" alt="PDF 4">
+            </div>
+            <div class="column">
+                <img src="005.jpg" class="thumbnail" data-pdf="005.pdf" alt="PDF 5">
+            </div>
+            <div class="column">
+                <img src="006.jpg" class="thumbnail" data-pdf="006.pdf" alt="PDF 6">
+            </div>
+        </div>
+        <div class="row">
+            <div class="column">
+                <img src="007.jpg" class="thumbnail" data-pdf="007.pdf" alt="PDF 7">
+            </div>
+            <div class="column">
+                <img src="008.jpg" class="thumbnail" data-pdf="008.pdf" alt="PDF 8">
+            </div>
+            <div class="column">
+                <img src="009.jpg" class="thumbnail" data-pdf="009.pdf" alt="PDF 9">
+            </div>
+            <div class="column">
+                <img src="010.jpg" class="thumbnail" data-pdf="010.pdf" alt="PDF 10">
+            </div>
+            <div class="column">
+                <img src="011.jpg" class="thumbnail" data-pdf="011.pdf" alt="PDF 11">
+            </div>
+            <div class="column">
+                <img src="012.jpg" class="thumbnail" data-pdf="012.pdf" alt="PDF 12">
+            </div>
+        </div>
+        <div class="row">
+            <div class="column">
+                <img src="013.jpg" class="thumbnail" data-pdf="013.pdf" alt="PDF 13">
+            </div>
+            <div class="column">
+                <img src="014.jpg" class="thumbnail" data-pdf="014.pdf" alt="PDF 14">
+            </div>
+            <div class="column">
+                <img src="015.jpg" class="thumbnail" data-pdf="015.pdf" alt="PDF 15">
+            </div>
+            <div class="column">
+                <img src="016.jpg" class="thumbnail" data-pdf="016.pdf" alt="PDF 16">
+            </div>
+            <div class="column">
+                <img src="017.jpg" class="thumbnail" data-pdf="017.pdf" alt="PDF 17">
+            </div>
+            <div class="column">
+                <img src="018.jpg" class="thumbnail" data-pdf="018.pdf" alt="PDF 18">
+            </div>
+        </div>
+        <div class="row">
+            <div class="column">
+                <img src="019.jpg" class="thumbnail" data-pdf="019.pdf" alt="PDF 19">
+            </div>
+            <div class="column">
+                <img src="020.jpg" class="thumbnail" data-pdf="020.pdf" alt="PDF 20">
+            </div>
+            <div class="column">
+                <img src="021.jpg" class="thumbnail" data-pdf="021.pdf" alt="PDF 21">
+            </div>
+            <div class="column">
+                <img src="022.jpg" class="thumbnail" data-pdf="022.pdf" alt="PDF 22">
+            </div>
+            <div class="column">
+                <img src="023.jpg" class="thumbnail" data-pdf="023.pdf" alt="PDF 23">
+            </div>
+            <div class="column">
+                <img src="024.jpg" class="thumbnail" data-pdf="024.pdf" alt="PDF 24">
+            </div>
+        </div>
+        <div class="row">
+            <div class="column">
+                <img src="025.jpg" class="thumbnail" data-pdf="025.pdf" alt="PDF 25">
+            </div>
+            <div class="column">
+                <img src="026.jpg" class="thumbnail" data-pdf="026.pdf" alt="PDF 26">
+            </div>
+            <div class="column">
+                <img src="027.jpg" class="thumbnail" data-pdf="027.pdf" alt="PDF 27">
+            </div>
+            <div class="column">
+                <img src="028.jpg" class="thumbnail" data-pdf="028.pdf" alt="PDF 28">
+            </div>
+            <div class="column">
+                <img src="029.jpg" class="thumbnail" data-pdf="029.pdf" alt="PDF 29">
+            </div>
+            <div class="column">
+                <img src="030.jpg" class="thumbnail" data-pdf="030.pdf" alt="PDF 30">
+            </div>
+        </div>
+        <div class="row">
+            <div class="column">
+                <img src="031.jpg" class="thumbnail" data-pdf="031.pdf" alt="PDF 31">
+            </div>
+            <div class="column">
+                <img src="032.jpg" class="thumbnail" data-pdf="032.pdf" alt="PDF 32">
+            </div>
+            <div class="column">
+                <img src="033.jpg" class="thumbnail" data-pdf="033.pdf" alt="PDF 33">
+            </div>
+            <div class="column">
+                <img src="034.jpg" class="thumbnail" data-pdf="034.pdf" alt="PDF 34">
+            </div>
+            <div class="column">
+                <img src="035.jpg" class="thumbnail" data-pdf="035.pdf" alt="PDF 3
